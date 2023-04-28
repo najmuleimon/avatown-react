@@ -25,3 +25,18 @@
   border-left-color: transparent;
   border-right-color: transparent;
 }
+
+.pagination li a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 34px;
+  width: 30px;
+  font-size: 20px;
+  color: #000;
+}
+
+.pagination li.activePage a{
+  background-color: #D9D9D9;
+  font-weight: 500;
+}
